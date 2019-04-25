@@ -4,6 +4,7 @@
 - There is no login required or account tracking for this There is no login required or account tracking for this application. 
 - For the analysis, if there are three players with the same number of answers in common then the two will be paired based on their name in alphabetical order.
 - All Users including organizer are able to cancel the game anytime by selecting the “End” button after the game has started. There will be a warning popup confirming whether they would like to cancel the game, that they may select again to cancel. If the organizer cancels the game then the game will be cancelled for all players in the room. 
+- Game data will not be saved to the system.
 
 
 ## Organizer
@@ -17,7 +18,7 @@ Organizers can be team leaders, teachers, managers or any other leadership role.
 - The organizer will have the ability to share the randomly generated room code to participants by selecting the copy icon which will copy to the clipboard and paste on preferred messaging platform.	
 - The organizer is able to navigate to the “Room Settings” after creating the room by a single action.
 - Organizer can enable the timer option used during discussion time in “Room Settings”. The Organizer inputs only number value into the text field and it does not accept text or special characters. When the Organizer clicks the “Discussion Time” button the timer will countdown and when it reaches zero the “next” button will appear allowing the Organizer to move to next question. 
-- Organizer is able to configure in "Room Settings" if the game should include an compatibility analysis or a knowledge test. A compatibility analysis will determine which players are compatible with each player. A knowledge test tests how well each player knows each player in the game room. 
+- Organizer is able to configure in "Room Settings" if the game should include an compatibility analysis or to show rankings. A compatibility analysis will determine which players are compatible with each player. The rankings will display how well each player did in the game.
 - Organizer is able to choose the number of questions will appear in a single game, the minimum is 5 and the maximum is 15. The default number will be 5. This will be displayed on a slider. 
 - Organizer is able to change the default room name by typing the name of their choosing in the text field located in the room setting screen. This room name will only accept text or numbers but, no special characters.
 - After the organizer has adjusted their preferred settings, they may navigate to the category page by a single action. 
