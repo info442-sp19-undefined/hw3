@@ -16,7 +16,6 @@ Organizers can be team leaders, teachers, managers or any other leadership role.
 - Room number must consist of a unique combination of numbers, letters of the alphabet, and 8 characters (inclusive). 
 - The organizer will have the ability to share the randomly generated room code to participants by selecting the copy icon which will copy to the clipboard and paste on preferred messaging platform.	
 - The organizer is able to navigate to the room settings after creating the room by a single action.
-- Organizer can enable the timer option used during discussion time in the room settings. The Organizer inputs only number value into the text field and it does not accept text or special characters. When the Organizer clicks the “Discussion Time” button the timer will countdown and when it reaches zero the “next” button will appear allowing the Organizer to move to next question. 
 - Organizer is able to configure in the room settings if the game should include an compatibility analysis or to show rankings. A compatibility analysis will determine which players are compatible with each player. The rankings will display how well each player did in the game. 
 - Organizer is able to choose the number of questions will appear in a single game, the minimum is 5 and the maximum is 15. The default number will be 5. This will be displayed on a slider. 
 - Organizer is able to change the default room name by typing the name of their choosing in the text field located in the room setting screen. This room name will only accept text or numbers but, no special characters.
@@ -35,7 +34,6 @@ Organizers can be team leaders, teachers, managers or any other leadership role.
 - After the organizer has chosen a category, they will have the option to click on a button that will create a room. This will lead them to a waiting room where the organizer will be able to oversee how many people has joined the room and determine whether to begin the game by selecting a button to start the game.
 - There must be at least two people including organizer in the room to start the game. If the Organizer presses the button to start the game without having at least two people then, an error message will show and prompt the Organizer to begin when they have enough people.
 - Once the game has started, every new question will be displayed initially to the Organizer and they will determine whether they wish to display the question for every player to answer by pressing on a button that will publish the question. Likewise, they have the option to skip the question without showing the question to players in the room by pressing the a button.
-- For every published question, the organizer has to click on a button that indicates the start of discussion time before moving onto the next question. This prompts the players to facilitate in face-to-face discussion about the question. After every player has exchanged answers to the question, the organizer may click on a button that will take them to the screen with the next question. 
 - Organizer is able to see how many people answered the question at all times through a number counter on their screen.
 - Organizer’s will oversee the entire game, by seeing what the participants have answered and how many participants have answered. 
 - Organizer does not have the ability to input their own answers to the questions.
@@ -45,9 +43,7 @@ Organizers can be team leaders, teachers, managers or any other leadership role.
 - If the game has been completed or cancelled, the screen will display the option to restart the game or to view analysis of the participant’s answers. 
 The organizer can restart the game within the same room by pressing a button. This in turn will prompt the Organizer to select a new category of questions to play with.
 - If the organizer would not like to restart the game, they may choose to the analysis mode.
-- This is where every player will be matched with another player based on similar answers. Analysis will be done based on users who chose the same answers, and display the most “compatible” player(s) for each player; that is pairs of players with the most common answers. If there is more than two players whom has the same number of common answers, players will be paired by alphabetical order. Users are able to select answers by pressing one of two button choices. The default answer will be the button on the left.
-- Only the organizer is able to see the player’s answers and their most compatible team member.
-
+- Analysis will be based on the answers the players provided. We will display all the answers through a bar chart per question. We will show the number of participants that answered with option 1 or option 2. We will not show the names of the participants. 
 
 ## Participants
 ### Software must include these *functionalities*:
