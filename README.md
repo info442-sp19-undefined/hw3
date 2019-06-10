@@ -26,7 +26,7 @@ Organizers can be team leaders, teachers, managers or any other leadership role.
     - Books (COMPLETE)
     - Food (COMPLETE)
     - Animals (COMPLETE)
-    - Random: If the Organizer selects the random button then, their set number of randomly selected questions will be determined from the above categories.
+    - Random: If the Organizer selects the random button then, their set number of randomly selected questions will be determined from the above categories. (COMPLETE)
     - Customize: The Organizer can create their own questions. After clicking on the customize option, the organizer will be directed to a screen with a card deck. Each card deck will have an input box for the organizer to type in their question. There is no limitation on what the organizer can type in as the question. The organizer will have the option of adding 5 questions (the default). To add more custom questions, the organizer will need to press the button that will direct them to the room settings and change the number of questions to appear in a single game. Once they have selected their desired number of questions, they will be able to press a button to return to the card deck and input more/less questions. Once they have added a question and corresponding multiple choice answers to the number of questions they have set in the room settings they will be prompted to a waiting room. (COMPLETE)
 - After the organizer has chosen a category, they will have the option to click on a button that will create a room. This will lead them to a waiting room where the organizer will be able to oversee how many people has joined the room and determine whether to begin the game by selecting a button to start the game. (COMPLETE)
 - There must be at least two people including organizer in the room to start the game. If the Organizer presses the button to start the game without having at least two people then, an error message will show and prompt the Organizer to begin when they have enough people. (COMPLETE)
@@ -40,7 +40,7 @@ Organizers can be team leaders, teachers, managers or any other leadership role.
 - If the game has been completed or cancelled, the screen will display the option to restart the game or to view analysis of the participant’s answers.
 The organizer can restart the game within the same room by pressing a button. This in turn will prompt the Organizer to select a new category of questions to play with.
 - If the organizer would not like to restart the game, they may choose to the analysis mode.
-- Analysis will be based on the answers the players provided. We will display all the answers through a bar chart per question. We will show the number of participants that answered with option 1 or option 2. We will not show the names of the participants.
+- Analysis will be based on the answers the players provided. We will display all the answers through a bar chart per question. We will show the number of participants that answered with option 1 or option 2. We will not show the names of the participants. (IMPOSSIBLE - ChartJS, Chartkick and CanvasJS were tried and all three were not able to produce a graph. First, CanvasJS was missing a crucial file in the installation. There was a discussion post online with users with the same problem I encountered saying that CanvasJS has not fixed this issue. The problem with ChartJS and Chartkick is that it was not possible to integrate firebase data with these charts. Also, the sample provided by these sources were all contained within an HTML file, which is not coherent with the architecture of our program. There were no other substantial chart packages avaliable.)
 
 ## Participants
 ### Software must include these *functionalities*:
@@ -51,9 +51,9 @@ The organizer can restart the game within the same room by pressing a button. Th
 - Once the players have inputted their name and chosen an icon, the players will be able to navigate to a waiting room, in which they are able view who has joined the game within the room.
 - The game will not start unless the Organizer clicks on a button to start it. While waiting for the Organizer to begin the game, Players will see a loading display at the bottom of the screen under the list of players in the room.
 - Once the game has begun, regardless, of the fact that the player is in vertical view or horizontal view the question and action buttons will repositions itself to fit both screen displays. (COMPLETE)
-- Players are able to choose the answer to the question through a single action.
+- Players are able to choose the answer to the question through a single action. (COMPLETE)
 - If the player selects to cancel the game by clicking a button then, this specific player will be redirected to the landing page while the other players will still be playing the game.
 - After answering each game question, the game will enter discussion time. On the player’s screen, it will display their answer in large font. This will allow the players to form groups with players who have chosen the same answer and discuss their answers. (IMPOSSIBLE - we could not find a timer that was compatible with our coding language and style. This requirement not central to the purpose of our app, as the organizer can facilitate this discussion in real life.)
 - After the test has been completed, the players will see the loading page, whilst the organizer decides whether to restart the game or the analysis option.
-- If the organizer has decided to end the game and show the analysis, the player will be shown the name of the player who has the most similar answers. (IMPOSSIBLE - as mentioned in the beginning)
+- If the organizer has decided to end the game and show the analysis, the player will be shown the name of the player who has the most similar answers. (IMPOSSIBLE - as mentioned earlier)
 - If the organizer has decided to restart the game then the screen will display the new question to every player in the room.
